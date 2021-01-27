@@ -109,6 +109,7 @@ public class JobData {
             for (CSVRecord record : records) {
                 HashMap<String, String> newJob = new HashMap<>();
 
+
                 for (String headerLabel : headers) {
                     newJob.put(headerLabel, record.get(headerLabel));
                 }
